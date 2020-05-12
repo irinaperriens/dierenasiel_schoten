@@ -1,0 +1,473 @@
+.balkje {
+  background-color: #A0C531;
+  position: relative;
+}
+
+.logo {
+  margin: 1rem;
+}
+
+.hamburger {
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;;
+}
+
+.menu {
+  background-color: #A0C531;
+  color: white;
+  position: absolute;
+  z-index: 10;
+  top: 6rem;
+  right: 1rem;
+  border-radius: 15px;
+  padding: 1rem;
+  font-size: 15px;
+  line-height: 19px;
+  font-family: futura-pt,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.onzichtbaar {
+  display: none;
+}
+
+.zichtbaar {
+  display: block;
+}
+
+.katje {
+  width: 100vw;
+  z-index: 0
+}
+
+.titelpagina {
+  position: relative;
+}
+
+h3 {
+  color: #61C1C7;
+  font-size: 25px;
+  font-family: futura-pt-condensed,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.titelpagina h2 {
+  position: absolute;
+  top: 20rem;
+  left: 2rem;
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: futura-pt-condensed,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.titelpagina h2:nth-child(2) {
+  top: 23rem;
+}
+
+/* MAIN */
+
+main {
+  position: relative;
+  top: -2rem;
+  background-color: white;
+  border-radius: 21px 21px 0px 0px;
+}
+
+.startpagina {
+  padding-top: 2rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 18px;
+  font-family: futura-pt,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 1rem;
+  line-height: 2rem;
+}
+
+.linksstart {
+  width: 90vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 21px;
+  margin-top: 2rem;
+}
+
+.link1 {
+  position: relative;
+}
+
+.link1 a {
+  position: absolute;
+  bottom: 2rem;
+  right: 4rem;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  border-radius: 5rem;
+  font-family: futura-pt,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.linkorange {
+  background-color: #F3AA89;
+}
+
+.lightblue {
+  background-color: #B8D4D1;
+}
+
+.darkblue {
+  background-color: #63C1C7;
+}
+
+
+/* FOOTER */
+footer {
+  width: 100vw;
+  height: 5rem;
+  background-color: #A0C531;
+}
+
+
+/* CONTACTPAGINA */
+
+h4 {
+  font-size: 18px;
+  font-family: futura-pt,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+.contact-card, .mogelijkheden, .steunons-card, .zooplus-card, .tips-card, .zwerfkatten-card, .steriliseren-card, .links-card {
+  margin-top: 2rem;
+  color: white;
+  line-height: 10px;
+  background-color: #B8D5D1;
+  width: 80%;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 21px;
+}
+
+.contact-card p {
+  margin-top: 0;
+}
+
+.list {
+  font-size: 18px;
+  font-family: futura-pt,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 18px;
+  margin-left: 2rem;
+  list-style: disc;
+}
+
+.contact-main {
+  position: relative;
+}
+
+.illustratie {
+  position: absolute;
+  right: 2rem;
+  bottom: 7.5rem;
+  width: 150px;
+}
+
+/* METER PETERPAGINA */
+
+.peter-card, .adoptie-card, .fabeltje, .afscheid-card{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meterpeter-main {
+  position: relative;
+}
+
+
+.meterpeter-main .illustratie{
+  position: absolute;
+  right: 0rem;
+  bottom: -3rem;
+  width: 80px;
+}
+
+.pootje{
+  position: absolute;
+  right: 1rem;
+  top: 12rem;
+  width: 50px;
+  z-index: 1
+}
+
+.pootje2{
+  position: absolute;
+  transform: rotate(90deg);
+  left: 0rem;
+  top: 0rem;
+  width: 50px;
+  z-index: 1
+}
+
+.pootje3{
+  position: absolute;
+  transform: rotate(70deg);
+  left: 1rem;
+  top: 58rem;
+  width: 50px;
+  z-index: 1
+}
+
+.pootje4{
+  position: absolute;
+  transform: rotate(-10deg);
+  right: 1.2rem;
+  top: 88rem;
+  width: 50px;
+  z-index: 1
+}
+
+.pootje5{
+  position: absolute;
+  transform: rotate(80deg);
+  left: 0rem;
+  top: 110rem;
+  width: 50px;
+  z-index: 1
+}
+
+.pootje6{
+  position: absolute;
+  transform: rotate(20deg);
+  right: 1.8rem;
+  top: 160rem;
+  width: 50px;
+  z-index: 1
+}
+
+.pootje7{
+  position: absolute;
+  transform: rotate(50deg);
+  left: 0rem;
+  top: 220rem;
+  width: 50px;
+  z-index: 1
+}
+
+.pootje8{
+  position: absolute;
+  transform: rotate(40deg);
+  right: 1.8rem;
+  top: 290rem;
+  width: 50px;
+  z-index: 1
+}
+
+.pootje9{
+  position: absolute;
+  transform: rotate(90deg);
+  left: 0rem;
+  top: 400rem;
+  width: 50px;
+  z-index: 1
+}
+
+.pootje10{
+  position: absolute;
+  transform: rotate(20deg);
+  right: 1.8rem;
+  top: 450rem;
+  width: 50px;
+  z-index: 1
+}
+
+.pootje11{
+  position: absolute;
+  transform: rotate(90deg);
+  left: 0rem;
+  top: 500rem;
+  width: 50px;
+  z-index: 1
+}
+
+.pootje12 {
+  position: absolute;
+  transform: rotate(20deg);
+  right: 1.8rem;
+  top: 550rem;
+  width: 50px;
+  z-index: 1
+}
+
+.pootje13{
+  position: absolute;
+  transform: rotate(90deg);
+  left: 0rem;
+  top: 630rem;
+  width: 50px;
+  z-index: 1
+}
+/* ADOPTIE PAGINA */
+
+.fotodier {
+  margin-top: 2rem;
+  display: block;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 21px;
+}
+
+.verhaal {
+  background-color: #B8D5D1;
+  border-radius: 0 0 21px 21px;
+  padding: 1rem;
+}
+
+.verhaalfoto {
+  margin-top: 2rem;
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 21px 21px 0 0;
+}
+
+.backbtn, .btn {
+  background-color: #61C1C7;
+  text-decoration: none;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 5rem;
+  font-family: futura-pt,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+footer {
+  padding: 3rem;
+}
+
+.klembord {
+  position: absolute;
+  left: 1rem;
+  bottom: -5rem;
+  width: 80px;
+  transform: rotate(20deg);
+}
+
+/* STEUN ONS */
+
+.voorbeeld {
+  color: white;
+  line-height: 10px;
+  width: 80%;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:0 0 21px;
+  background-color: #61C1C7;
+}
+
+.testament {
+  border-radius: 21px 21px 0 0;
+}
+
+.hondkat {
+  position: absolute;
+  right: 1rem;
+  bottom: 53rem;
+  width: 110px;
+  transform: rotate(-20deg);
+}
+
+/* ZOOPLUS */
+.zooplus{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* TIPS */
+.verlies p {
+  margin-top: 1rem;
+}
+
+.verlies:nth-child(2) {
+  border-radius: 21px 21px 0 0;
+}
+
+.verlies-foto img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.tuinafsluiting2{
+  border-radius: 0 0 21px 21px;
+}
+
+/* ZWEFKATTEN */
+.zwerfkatten-main {
+  position: relative;
+}
+
+.zwerfkattenillustratie {
+  position: absolute;
+  bottom: -5.5rem;
+  width: 100px;
+  right: 1rem;
+}
+
+/* STERILISEREN */
+
+.fabeltje h4 {
+  text-transform: none;
+}
+
+/* LINKS */
+
+.links h4 {
+  margin-bottom: 2rem;
+}
+
+.laatstp {
+  margin-bottom: 2rem;
+}
