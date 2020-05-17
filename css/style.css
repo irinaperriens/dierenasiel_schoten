@@ -52,7 +52,7 @@ a {
 }
 
 h3 {
-  color: #61C1C7;
+  color: #B8D5D1;
   font-size: 25px;
   font-family: futura-pt-condensed,sans-serif;
   font-weight: 700;
@@ -168,12 +168,12 @@ h4 {
   margin-top: 2rem;
   color: white;
   line-height: 10px;
-  background-color: #B8D5D1;
   width: 80%;
   padding: 2rem;
   margin-left: auto;
   margin-right: auto;
   border-radius: 21px;
+  background-color: #61C1C7;
 }
 
 .contact-card p {
@@ -363,7 +363,6 @@ h4 {
 }
 
 .backbtn, .btn {
-  background-color: #61C1C7;
   text-decoration: none;
   color: white;
   padding: 0.8rem;
@@ -401,8 +400,8 @@ footer {
   padding: 2rem;
   margin-left: auto;
   margin-right: auto;
-  border-radius:0 0 21px;
-  background-color: #61C1C7;
+  border-radius:0 0 21px 21px;
+  background-color: #F3AA89;
 }
 
 .testament {
@@ -470,4 +469,558 @@ footer {
 
 .laatstp {
   margin-bottom: 2rem;
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 500px) {
+
+  .titelpagina h2 {
+    top: 26rem;
+    left: 2rem;
+    font-size: 32px;
+  }
+
+  .coordinaten {
+    width: 80%;
+  }
+
+  .titelpagina h2:nth-child(2) {
+    top: 29rem;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 23px;
+    line-height: 26px
+  }
+
+  .contact-card p, .peter-card p, .mogelijkheden p, .peter-card li, .steunons-card p, .voorbeeld p, .zooplus-card p, .adoptie p, .tips p, .zwerfkatten p, .steriliseren p{
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .link1 a {
+    font-size: 15px;
+  }
+
+  #adoptiebtn, #afscheidbtn {
+    position: absolute;
+    bottom: 2rem;
+    right: -2rem;
+  }
+}
+
+
+@media (min-width: 700px) {
+
+  .titelpagina h2 {
+    top: 40rem;
+    left: 2rem;
+    font-size: 46px;
+  }
+
+  .links img {
+    width: 30rem;
+  }
+
+  .contact-card p, .peter-card p, .mogelijkheden p, .peter-card li, .steunons-card p, .voorbeeld p, .zooplus-card p, .adoptie-card p, .tips p, .zwerfkatten p, .steriliseren p, .startpagina p{
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+
+  .linkshome {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-top: 1rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hamburger {
+    right: 3rem;
+    top: 2rem;
+  }
+
+
+  .titelpagina h2:nth-child(2) {
+    top: 45rem;
+  }
+
+  .link1 a {
+    font-size: 13px;
+  }
+
+  #adoptiebtn, #afscheidbtn {
+    position: absolute;
+    bottom: 2rem;
+    right: -2rem;
+  }
+
+  .logo {
+    width: 70px;
+  }
+
+  .hamburger {
+    width: 40px;
+  }
+
+  .katje {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  .link1 a {
+    bottom: 2rem;
+    right: 5rem;
+    padding: 1rem;
+  }
+
+  .menu {
+    top: 8rem;
+    right: 1rem;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .contact-main .illustratie {
+    position: absolute;
+    right: 2rem;
+    bottom: -3rem;
+    width: 300px;
+  }
+
+
+  .petermeterschap {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-gap: 2rem;
+  }
+
+
+  .mogelijkheden {
+    grid-column: 2;
+    width: 100%;
+  }
+
+  .interesse {
+    grid-column: 1/3;
+    width: 100%;
+  }
+
+  .peter-card {
+    margin:0
+  }
+
+  .meterpeter-main .illustratie {
+    bottom: 10rem;
+    right: 3rem;
+    width: 140px;
+  }
+
+  .adoptiegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .adoptie-card img {
+    width: 100%;
+  }
+
+  .muffin {
+    width: 60%;
+  }
+
+  #adoptiebtn2 {
+    right: 1.5rem;
+  }
+
+  .fotodier {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .zooplusfooter {
+    position: fixed;
+    bottom: 0;
+  }
+
+  .zooplus {
+    width: 60%;
+  }
+
+  .tips {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .verlies-foto {
+    grid-column: 2;
+    grid-row: 5;
+    margin-top: 2rem;
+  }
+
+  .verlies-foto img {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tuinafsluiting {
+    border-radius: 21px 21px  0 0;
+  }
+
+  .tips-card {
+    width: 90%;
+  }
+
+  .vakantie {
+    grid-row: 1;
+  }
+
+  .preventief {
+    grid-row: 5;
+  }
+
+  .tipspootje1 {
+    right: 3rem;;
+    top: 6rem;
+  }
+
+  .tipspootje2 {
+    left: 3rem;
+    top: 1rem;
+  }
+
+  .tipspootje3 {
+    display: none;
+  }
+
+  .tipspootje4 {
+    right: 38rem;;
+    top: 58rem;
+  }
+
+  .tipspootje5 {
+    display: none;
+
+
+
+  }
+
+  .tipspootje6 {
+    right: 3rem;;
+    top: 151rem;
+  }
+
+  .tipspootje7 {
+    left: 4rem;
+    top: 220rem;
+  }
+
+  .tipspootje8 {
+    right: 1rem;
+    top: 215rem;
+  }
+
+  .tipspootje9 {
+    display: none;
+  }
+
+  .tipspootje12, .tipspootje11, .tipspootje10 {
+    display: none;
+  }
+
+  .zwerfkztpootje5 {
+    display: none;
+  }
+
+  .zwerfkztpootje4, .sterielpootje7 {
+    display: none;
+  }
+
+  .steriliseren {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .linksfoto {
+    bottom: -2rem;
+    right: 6rem;
+  }
+
+  .afscheid .fotodier {
+    width: 120%;
+  }
+
+  .afscheid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-gap: 1rem;
+  }
+
+  .afscheidfooter {
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .katje {
+    height: 80vh;
+    object-fit: cover;
+  }
+
+  .titelpagina h2 {
+    font-size: 55px;
+    top: 55rem;
+  }
+
+  .titelpagina h2:nth-child(2) {
+    font-size: 55px;
+    top: 62rem;
+  }
+
+
+  .titelpaginagrid {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-auto-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+  }
+
+  h3 {
+    margin-top: 0rem;
+    padding-top: 3rem;
+  }
+
+  .linkshome {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .linksstart {
+    margin-right: 0;
+    margin-top: 0
+  }
+
+  .link1 a {
+    right: 2rem;
+    bottom: 2rem;
+  }
+
+  main {
+    top: 0
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 9rem;
+    margin-top: 5rem;
+  }
+
+  .contact-card {
+    margin-top: 0
+  }
+
+  .petermeterschap {
+    margin-top: 5rem;
+    margin-bottom: 32rem;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
+    grid-template-rows: none;
+  }
+
+  .interesse {
+    grid-row: 1;
+    grid-column: 3
+  }
+
+  .meterpootje1, .adoptiepootje1, .steunonspootje1, .zoopluspootje, .zwerfkattenpootje1, .sterielpootje1, .afscheidpootje1 {
+    right: 3rem;
+    top: 20rem;
+  }
+
+  .meterpootje2, .adoptiepootje2, .steunonspootje2, .zoopluspootje2, .zwerfkattenpootje2, .sterielpootje2, .afscheidpootje2 {
+    left: 3rem;
+    top: 3rem;
+  }
+
+  .meterpootje3, .adoptiepootje3, .steunonspootje3, .zoopluspootje3, .zwerfkattenpootje3, .sterielpootje3, .afscheidpootje3 {
+    left: 8rem;
+    bottom: 3rem;
+  }
+
+  .adoptiegrid {
+    margin-top: 5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 12rem;
+  }
+
+  .steunons-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-bottom: 5rem;
+  }
+
+  .schenking {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .voeding {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  .financieel {
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  .hoe {
+    grid-row: 1/4;
+    grid-template-columns: 2;
+  }
+
+  .steunonsfooter {
+    width: 100%;
+    margin: 0
+  }
+
+  .hondkat {
+    left: 2rem;
+    bottom: 1rem;
+    width: 150px;
+  }
+
+  .zooplusfooter, .tipsfooter {
+    position: relative;
+  }
+
+  .zooplus-card {
+    width: 60%;
+  }
+
+  .zooplus {
+    width: 400px;
+    margin-bottom: 18rem;
+  }
+
+  .tips {
+    width: 85%;
+  }
+
+  .tipspootje4 {
+    display: none;
+  }
+
+  .zwerfkatten {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+
+  .steriliseren {
+    width: 70%;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+
+  .sterielpootje6, .sterielpootje4 {
+    display: none;
+  }
+
+  .links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .links-main .illustratie {
+    width: 300px;
+  }
+
+  .afscheidfooter {
+    position: relative;
+  }
+
+  .afscheid {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .linkshome {
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: none;
+  }
+}
+
+@media (min-width: 1400px) {
+
+  body {
+    background-color: lightgrey
+  }
+
+  .menu {
+    right: 26rem;
+  }
+
+  header {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  main {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+  }
+
+  .linksstart {
+    width: 80%;
+  }
+
+  .maincontainer{
+    background-color: white;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
 }
