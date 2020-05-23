@@ -16,3 +16,16 @@ function zichtbaarMaken(){
   } else menu.classList.add('onzichtbaar');
 
 }
+
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
+
+$(document).keydown(function(e){
+    if(e.which === 123){
+
+       return false;
+
+    }
+
+});
