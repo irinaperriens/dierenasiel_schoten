@@ -179,12 +179,46 @@ p {
   background-color: #63C1C7;
 }
 
+video {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+}
+
+.footeradoptieprocedure {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 0
+}
+
+.adoptieprocedure-main {
+  height: 100%;
+  position: relative;
+}
+
+.adoptieprocedureillustratie {
+  position: absolute;
+  right: 1rem;
+  bottom: 4rem;
+  z-index: 10;
+  width: 120px
+}
 
 /* FOOTER */
 footer {
   width: 100vw;
   height: 5rem;
   background-color: #A0C531;
+}
+
+.designer p {
+  text-align: center;
+  margin-top: 0;
+  padding-bottom: 1rem;
+  color: white;
 }
 
 
@@ -201,7 +235,7 @@ h4 {
   line-height: 20px;
 }
 
-.contact-card, .mogelijkheden, .steunons-card, .zooplus-card, .tips-card, .zwerfkatten-card, .steriliseren-card, .links-card {
+.contact-card, .mogelijkheden, .steunons-card, .zooplus-card, .tips-card, .zwerfkatten-card, .steriliseren-card, .links-card, .procedure-card {
   margin-top: 2rem;
   color: white;
   line-height: 10px;
@@ -1002,7 +1036,9 @@ ul li {
     margin-left: auto;
     margin-right: auto;
   }
-
+  .adoptieprocedureillustratie {
+    width: 300px
+  }
 }
 
 @media (min-width: 1000px) {
@@ -1295,6 +1331,29 @@ ul li {
   .hamburger {
     display: none;
   }
+
+  video {
+    margin-top: 2rem;
+  }
+
+  .footeradoptieprocedure {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .adoptieprocedure-main {
+    padding-bottom: 11rem
+  }
+
+  .adoptieprocedureillustratie {
+    position: absolute;
+    right: 25rem;
+    bottom: 1rem;
+    z-index: 10;
+    width: 150px
+  }
 }
 
 @media (min-width: 1400px) {
@@ -1352,4 +1411,25 @@ ul li {
   .opendeurdag {
     margin-top: 0rem;
   }
+
+  video {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+
+  .footeradoptieprocedure {
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+  .adoptieprocedure-main {
+    height: 100vh
+  }
+
+
 }
